@@ -21,12 +21,12 @@ position: relative;
     left: 50%;
     transform: translate(-50%,-50%);
     background: #fff;
-    padding: 50px 60px 70px;
+    padding: 50px 60px 50px;
     text-align: center;
 }
 .form-box h1{
     font-size: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     color: #3c00a0;
     position: relative;
 }
@@ -89,7 +89,7 @@ input{
 
 }
 .input-group{
-    height: 230px;
+    height: 200px;
 }
 .btn-field button.disable{
 background: #eaeaea;
@@ -98,6 +98,7 @@ color: #555;
 
 /* Style for the button-like input */
 .button-like-input {
+    /* margin-top: 0px; */
     display: inline-flex;
     margin: 20px 50px;
     padding: 10px 20px;
